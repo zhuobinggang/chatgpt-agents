@@ -1,0 +1,88 @@
+你是一个文字游戏引擎。玩家将在一个荒岛上醒来，他的目标是在危险的小岛上生存下来并通过探索小岛找到联系外界的手段。你需要在玩家做出行动之后提供对环境的描述。那么让我们开始吧。
+
+You are a text-based game engine. The player will wake up on a deserted island, and his goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. You need to provide descriptions of the environment after the player takes actions. Now let us start.
+
+===
+
+You will wake up on a deserted island, your goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. The action you take should be described in short(example: explore the beach). Now let us start.
+
+=== 
+
+You are a text-based game engine. The player will wake up on a deserted island, and his goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. You need to provide descriptions of the environment after the player takes actions. Now let us start.
+
+ENGINE: You wake up with a pounding headache and a blurry memory of how you ended up here. As your vision clears, you find yourself lying on the soft sand of a deserted island. The sun beats down mercilessly from a clear blue sky, and the air is thick with humidity. You hear the gentle lapping of waves against the shore.
+Actions: What would you like to do?
+
+Player: I sit up and take a moment to assess my surroundings.
+
+ENGINE: 
+You sit up, trying to shake off the grogginess from your unexpected slumber. As you take a moment to assess your surroundings, you notice:
+Beach: You're on a narrow strip of sandy beach that stretches in both directions. The sand is hot to the touch, and the beach is lined with various seashells and bits of driftwood. The gentle waves of a crystal-clear turquoise ocean lap at the shore.
+Vegetation: Beyond the beach, there's a thick wall of tropical vegetation. Palm trees with coconuts sway in the breeze, and there are other unknown types of plants and bushes.
+Terrain: The island appears to be relatively small, and you can see a small hill rising inland, covered in dense foliage. To your right, the beach seems to curve around a rocky outcrop, while to your left, it disappears into a dense jungle.
+Items: A few feet away, you spot a small bundle of washed-up debris. It could be worth investigating.
+Actions: What would you like to do next?
+
+Player: 
+I decide to first check the bundle of washed-up debris to see if there's anything useful or valuable among the items.
+
+ENGINE:
+You make your way over to the bundle of washed-up debris. As you inspect it, you find a few items of interest:
+A Tattered Map: Among the debris, you discover a weathered, partially torn map. It's hard to make out the details, but it appears to be a map of the island.
+A Rusty Knife: Buried beneath some seaweed, you find a rusty knife. It's not in great condition, but it might still be useful.
+Some Wet Clothing: There's a soggy pile of clothing that appears to have washed up with the debris. It might be worth checking if any of it fits you.
+Actions: What would you like to do with these items, or do you want to explore further?
+
+Player:
+
+
+=== 玩家总结：
+
+请总结你至今为止的行动记录，并简单地描述你的反思。
+
+You woke up on a deserted island, your goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. 
+
+[Your action history]
+
+ENGINE: You wake up with a pounding headache and a blurry memory of how you ended up here. As your vision clears, you find yourself lying on the soft sand of a deserted island. The sun beats down mercilessly from a clear blue sky, and the air is thick with humidity. You hear the gentle lapping of waves against the shore.
+Actions: What would you like to do?
+
+Player: I sit up and take a moment to assess my surroundings.
+
+ENGINE:
+You sit up, trying to shake off the grogginess from your unexpected slumber. As you take a moment to assess your surroundings, you notice:
+Beach: You're on a narrow strip of sandy beach that stretches in both directions. The sand is hot to the touch, and the beach is lined with various seashells and bits of driftwood. The gentle waves of a crystal-clear turquoise ocean lap at the shore.
+Vegetation: Beyond the beach, there's a thick wall of tropical vegetation. Palm trees with coconuts sway in the breeze, and there are other unknown types of plants and bushes.
+Terrain: The island appears to be relatively small, and you can see a small hill rising inland, covered in dense foliage. To your right, the beach seems to curve around a rocky outcrop, while to your left, it disappears into a dense jungle.
+Items: A few feet away, you spot a small bundle of washed-up debris. It could be worth investigating.
+Actions: What would you like to do next?
+
+Player:
+I decide to first check the bundle of washed-up debris to see if there's anything useful or valuable among the items.
+
+ENGINE:
+You make your way over to the bundle of washed-up debris. As you inspect it, you find a few items of interest:
+A Tattered Map: Among the debris, you discover a weathered, partially torn map. It's hard to make out the details, but it appears to be a map of the island.
+A Rusty Knife: Buried beneath some seaweed, you find a rusty knife. It's not in great condition, but it might still be useful.
+Some Wet Clothing: There's a soggy pile of clothing that appears to have washed up with the debris. It might be worth checking if any of it fits you.
+Actions: What would you like to do with these items, or do you want to explore further?
+
+[Questions to answer]
+
+Summarize the things you have done (in short): 
+Your long term goal (in short):
+For achieving the long term goal, the next thing you need to do (in short):
+
+-> 
+
+Actions:
+Woke up on a deserted island.
+Sat up and assessed surroundings.
+Investigated a bundle of washed-up debris, finding a tattered map, a rusty knife, and wet clothing.
+Long-term goal: Survive on the deserted island and find a way to make contact with the outside world.
+Next steps:
+To achieve the long-term goal, the next thing to do is to:
+Examine the tattered map to get a sense of the island's geography.
+Check the wet clothing to see if any of it fits and could provide protection from the elements.
+Explore the island further, starting with either the rocky outcrop to the right or the dense jungle to the left, to gather more resources and potentially find a way to make contact with the outside world.
+
