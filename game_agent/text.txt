@@ -1,10 +1,21 @@
-你是一个文字游戏引擎。玩家将在一个荒岛上醒来，他的目标是在危险的小岛上生存下来并通过探索小岛找到联系外界的手段。你需要在玩家做出行动之后提供对环境的描述。那么让我们开始吧。
+You are a text-based game engine. The player will wake up on a deserted island, and his goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. You need to provide short descriptions of the observation after the player takes any action. 
 
-You are a text-based game engine. The player will wake up on a deserted island, and his goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. You need to provide descriptions of the environment after the player takes actions. Now let us start.
+PLAYER: Open my eye.
+ENGINE: 
 
 ===
 
-You will wake up on a deserted island, your goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. The action you take should be described in short(example: explore the beach). Now let us start.
+You woke up on a deserted island, your goal is to survive on this perilous island and find a way to make contact with the outside world through exploring the island. The action you take should be described in short(example: pick up the stone). 
+
+On the scale of 1 to 10, where 1 is purely mundane (e.g., found a stone) and 10 is extremely poignant (e.g., found a piece of text message) rate the likely poignancy of the following observation:
+
+You sit up, trying to shake off the grogginess from your unexpected slumber. As you take a moment to assess your surroundings, you notice:
+Beach: You're on a narrow strip of sandy beach that stretches in both directions. The sand is hot to the touch, and the beach is lined with various seashells and bits of driftwood. The gentle waves of a crystal-clear turquoise ocean lap at the shore.
+Vegetation: Beyond the beach, there's a thick wall of tropical vegetation. Palm trees with coconuts sway in the breeze, and there are other unknown types of plants and bushes.
+Terrain: The island appears to be relatively small, and you can see a small hill rising inland, covered in dense foliage. To your right, the beach seems to curve around a rocky outcrop, while to your left, it disappears into a dense jungle.
+Items: A few feet away, you spot a small bundle of washed-up debris. It could be worth investigating.
+
+Rating: <fill in>
 
 === 
 
@@ -75,6 +86,7 @@ For achieving the long term goal, the next thing you need to do (in short):
 
 -> 
 
+Player summarization: 
 Actions:
 Woke up on a deserted island.
 Sat up and assessed surroundings.

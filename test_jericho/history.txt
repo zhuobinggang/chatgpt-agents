@@ -1,0 +1,50 @@
+## 失败(2023.10.11): 笔记本上的内容被理解成了目标，agent试图重新拾取手册
+## TODO: 将笔记本上的内容分区成长期计划，短期计划，以及目前完成的事情(总结)
+## 思考: 如何将chroma融合到这个流程里面来
+
+Your choice: 'open mailbox'
+Your choice: 'take leaflet'
+Your choice: 'read leaflet'
+Your choice: 'put leaflet in mailbox'
+I choose to head "north" from my current location.
+Your choice: east
+My choice: open window
+My choice: 'east'\nI want to explore the path that leads into the forest to the east to see if it leads to any potential treasure locations.
+My choice: 'go around forest'
+===
+NOTES ON YOUR NOTEBOOK:
+Started as a treasure hunter.
+Found a leaflet in a mailbox in front of a white house.
+Read the ZORK game leaflet.
+Moved north, then east, behind the house.
+Opened a slightly ajar window.
+Entered a small clearing in the forest.
+Heading east in the forest.
+===
+To continue my adventure, I choose to go "east" into the sunlight.
+It seems like you've been exploring the ZORK game world. To continue your adventure, let's choose the next action:\n\n Your choice: north
+To continue your adventure, let's choose the action:\n 'west'
+To achieve your goal, let's choose the action "north" to continue exploring the forest.\n\nYour choice: "north"
+To achieve my goal, I choose the action: 'take leaves'.
+My choice: 'east'
+My next action will be to "go around trees."
+I choose 'northwest' as my next action.  \n\nYOU: northwest
+My choice: 'south'
+===
+NOTES ON YOUR NOTEBOOK:
+
+- Started as a treasure hunter.
+- Found ZORK game leaflet in a white house mailbox.
+- Moved north, then east behind the house.
+- Entered a clearing in the forest.
+- Went east in the forest.
+- In recent actions:
+  - Went east in the forest.
+  - Headed north at a clearing.
+  - Found a pile of leaves and revealed a grating.
+  - Took leaves.
+  - Attempted to go around the trees to the northwest but ended up south of the white house.
+===
+To achieve your goal, you should choose the following action: \n\n'northwest'
+To achieve your goal, your next action should be: \n\n'west'
+To achieve your goal, you should choose the action "take leaflet" to obtain the ZORK game leaflet from the small mailbox.

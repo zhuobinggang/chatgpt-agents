@@ -1,0 +1,43 @@
+# 00 
+TEXT ON YOUR NOTEBOOK:
+I am a treasure hunter. My goal is to collect treasures as much as I can (some treasures requiring puzzle-solving).
+
+RECENT ACTION HISTORY
+YOU: wake up
+ENGINE:
+West of House
+You are standing in an open field west of a white house, with a boarded front door.
+There is a small mailbox here.
+YOU: open mailbox
+ENGINE:
+Opening the small mailbox reveals a leaflet.
+YOU: take leaflet
+ENGINE:
+Taken.
+YOU: read leaflet
+ENGINE:
+"WELCOME TO ZORK!
+
+ZORK is a game of adventure, danger, and low cunning. In it you will explore some of the most amazing territory ever seen by mortals. No computer should be without one!"
+YOU: put leaflet in mailbox
+ENGINE:
+Done.
+YOU: north
+ENGINE:
+North of House
+You are facing the north side of a white house. There is no door here, and all the windows are boarded up. To the north a narrow path winds through the trees.
+YOU: east
+ENGINE:
+Behind House
+You are behind the white house. A path leads into the forest to the east. In one corner of the house there is a small window which is slightly ajar.
+YOU: open window
+ENGINE:
+With great effort, you open the window far enough to allow entry.
+YOU: east
+ENGINE:
+Clearing
+You are in a small clearing in a well marked forest path that extends to the east and west.
+
+You are very forgetful. To continue moving forward, you must summarize your action history and record it in a notebook for future reference. Now, please update your notes.
+TEXT ON YOUR NOTEBOOK: <fill in>
+
