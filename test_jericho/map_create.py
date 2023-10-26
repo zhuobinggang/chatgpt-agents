@@ -22,7 +22,7 @@ def explore_all_directions(env, G):
         G.nodes[location.num]['updated'] = 1
         env.last_state = env.get_state()
         available_actions = env.get_valid_actions()
-        for direction in ['east', 'south', 'west', 'north', 'up', 'down']:
+        for direction in ['east', 'south', 'west', 'north', 'up', 'down', 'southwest', 'northwest', 'southeast', 'northeast']:
             if direction not in available_actions:
                 print(f'{direction} not in available_actions')
             else: # 只要存在可以探索的方向即增加边, 然后判断是否需要探索这个新的地点
