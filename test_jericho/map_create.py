@@ -1,19 +1,30 @@
 from game import init_env
 DOTFILE = 'dd.dot'
 PNGFILE = 'dd.png'
+NAME_OF_NODE_EXIST = []
 
 # 遍历地图
 
 def back(env):
     env.set_state(env.last_state)
 
+def add_node_avoid_name_repeat(G, key, name):
+    global NAME_OF_NODE_EXIST
+    if name in NAME_OF_NODE_EXIST:
+        name = f'{name}({key})'
+    else:
+        NAME_OF_NODE_EXIST.append(name)
+    G.add_node(key, label = name, updated = 0)
+
+
 def explore_all_directions(env, G):
+    global NAME_OF_NODE_EXIST
     directions_to_explore = []
     states_to_explore = []
     location = env.get_player_location()
     print(f'START EXPLORE: {location.name}({location.num})')
     if location.num not in G.nodes:
-        G.add_node(location.num, label = location.name, updated = 0)
+        add_node_avoid_name_repeat(G, location.num, location.name)
     if G.nodes[location.num]['updated'] == 1:
         print(f'{location.name}({location.num}) already updated!')
         return [], []
@@ -39,7 +50,7 @@ def explore_all_directions(env, G):
                         states_to_explore.append(env.get_state())
                 else: # 如果不存在需要增加节点
                     print(f'Adding new position: {new_location.name}({new_location.num})')
-                    G.add_node(new_location.num, label = new_location.name, updated = 0)
+                    add_node_avoid_name_repeat(G, new_location.num, new_location.name)
                     directions_to_explore.append(direction) # 标明需要探索这个方向
                     states_to_explore.append(env.get_state())
                 # 增加边
